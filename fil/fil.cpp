@@ -44,6 +44,7 @@ int pop(stack* a)
 		a->peek = 0;
 		int c = a->data;
 		a->data = 0;
+		return c;
 	}
 
 	int s = a->data;
